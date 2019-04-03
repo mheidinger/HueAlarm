@@ -1,5 +1,5 @@
 HueAlarm
-=========
+----------
 
 Simple arduino sketch for a Wemos D1 Mini (ESP8266).
 Monitors a pin attached though a relais to a static HIGH. If the pin switches to HIGH, a Hue light will be switched on for two minutes.
