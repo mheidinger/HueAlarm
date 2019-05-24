@@ -6,8 +6,8 @@ Monitors a pin attached though a relais to a static HIGH. If the pin switches to
 Used to turn on a lamp when an alarm comes in from a Swissphone ALGRA Expert pager station.
 
 Requires the following libraries:
-- ESP8266 platform
-- ESPHue
-- ArduinoJson
+- ESP8266 platform (https://github.com/esp8266/Arduino)
+- ESPHue (https://github.com/circuitsforfun/ESP_Hue)
+- ArduinoJson (https://github.com/bblanchon/ArduinoJson)
 
 The sketch needs to be configured with a `credentials.h` file that can be copied from `credentials-dummy.h` and filled with proper values.
